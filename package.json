@@ -1,0 +1,17 @@
+{
+  "name": "pwa-todos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "clean": "rimraf dist/*",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  }
+}
